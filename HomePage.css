@@ -8,6 +8,9 @@
 .logo-img{
     margin-top: 10px;
 }
+.logo-img img{
+    width: 300px;
+}
 .content-main{
     width: 80%;
     padding: 30px;
@@ -46,7 +49,7 @@ h1{
     width: 100%;
     height: 1px;
     background-color: rgb(224, 224, 224);
-    margin-top: 110px;
+    margin-top: 70px;
     position: relative;
 }
 .horizontal-line span{
@@ -56,6 +59,55 @@ h1{
     margin-left: 70px;
     margin-top: 20px;
 }
+@media only screen and (max-width: 768px) {
+    .logo-img img{
+        width: 200px;
+    }
+    .content-main {
+        width: 90%;
+        font-size: 12px;
+        padding: 20px;
+    }
+    .content-main span {
+        margin: 0 60px;
+    }
+    .content-sub {
+        flex-wrap: wrap;
+    }
+    .content-sub span {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .content-sub img {
+        width: 100px;
+        height: 100px;
+    }
+    .horizontal-line span {
+        margin-left: 40px;
+    }
+}
 
-
-
+@media only screen and (max-width: 480px) {
+    .logo-img img{
+        width: 120px;
+    }
+    .content-main {
+        width: 95%;
+        font-size: 11px;
+        padding: 10px;
+    }
+    .content-main span {
+        margin: 0 30px;
+    }
+    .content-sub span {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .content-sub img {
+        width: 80px;
+        height: 80px;
+    }
+    .horizontal-line span {
+        margin-left: 20px;
+    }
+}

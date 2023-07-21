@@ -28,3 +28,19 @@
     flex: 1; 
     border: none;
 }
+@media only screen and (max-width: 480px) {
+    .container{
+        flex-direction: column;
+    }
+    .vertical-menu {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+    .vertical-menu a{
+        width: 60px;
+    }
+    .form-main {
+        width: 100%;
+    }
+}
