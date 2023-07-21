@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.vertical-menu{
+    width: 10%;
+    height: 97vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.vertical-menu a{
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.vertical-menu a:hover{
+    background-color: gray;
+    color: white;
+}
+.form-main {
+    flex: 1; 
+    border: none;
+}
